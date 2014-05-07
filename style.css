@@ -1,0 +1,44 @@
+﻿html, body, ul, ol, li
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url("images/space.jpg");
+    background-size: cover;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+/* PHOTOGRAPHY */
+#photo
+{
+}
+
+    #photo #cat
+    {
+        width: 33%;
+        height: 33%;
+        background: url("images/cat.png") no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 33%;
+        left: 40%;
+    }
+
+    #photo #logo
+    {
+        width: 194px;
+        height: 41px;
+        background-image: url("images/logo.png");
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }
